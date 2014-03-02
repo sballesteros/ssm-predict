@@ -1,0 +1,34 @@
+{
+  "name": "ssm-predict",
+  "version": "0.0.0",
+  "description": "A prediction plugin for SSM",
+  "preferGlobal": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "ssm-predict": "predict"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sballesteros/ssm-predict.git"
+  },
+  "keywords": [
+    "SSM",
+    "prediction"
+  ],
+  "author": "Sebastien Ballesteros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sballesteros/ssm-predict/issues"
+  },
+  "homepage": "https://github.com/sballesteros/ssm-predict",
+  "dependencies": {
+    "commander": "^2.1.0",
+    "binary-csv": "^0.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1"
+  }
+}
